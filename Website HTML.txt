@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Motam Bakery</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://img.freepik.com/premium-vector/chef-bakery-logo-design-premium-vector_527727-148.jpg"
+            alt="cake logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#advert">Advert</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>Homemade baked goodies</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+             name="email"
+             id="email"
+             type="email"
+             placeholder="Enter your email address"
+             required
+          />
+          <input id="submit" type="submit" value="Order Today" class="btn"/>
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-birthday-cake"></i></div>
+            <div class="desc">
+              <h2>Highest-quality Ingredients</h2>
+              <p>
+                All of our baked delights are made with fresh and local-sourced ingredients. Our treats come with a money-back guarantee, because we guarantee that you'll love them!
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-truck"></i>
+            </div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure to deliver your orders while they are still fresh. We also provide free returns if you are not satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-heartbeat"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Checked</h2>
+              <p>
+                We have a 5* hygiene rating and regularly inspect our kitchens and products to ensure our goods are good to eat.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="advert">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube.com/embed/uBqBHsoMd08?si=sDQjisZA_UsjwLuW"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="cupcake">
+            <div class="level">Cupcakes</div>
+            <h3>1 cupcake - £3</h3>
+            <h3>6 cupcakes - £15</h3>
+            <h3>12 cupcakes - £25</h3>
+            <p><i>
+              Flavours: Vanilla, Strawberry, Pistachio, Chocolate, Lotus Biscoff, Kinder Bueno, Caramel, Walnut, Oreo
+            </i></p>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="pastries">
+            <div class="level">Patisseries</div>
+            <h3>1 pastry - £2.50</h3>
+            <h3>6 pastries - £12</h3>
+            <h3>12 pastries - £20</h3>
+            <p><i>
+              Flavours: Vanilla, Tres Leche, Strawberry, Apple & Custard, Chocolate, Chocolate Orange, Millionaire, Salted Caramel, Pistachio
+            </i></p>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="pastries">
+            <div class="level">Wedding Cakes</div>
+            <h3>One Tier - £40</h3>
+            <h3>Two Tiers - £70</h3>
+            <h3>Three Tiers - £100</h3>
+            <p><i>
+              Enquire for further detaiils and customisation
+            </i></p>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2016, Original Bakery</span>
+      </div>
+    </div>
+  </body>
+</html>
